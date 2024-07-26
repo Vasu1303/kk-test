@@ -1,0 +1,75 @@
+.imageContainer{
+    flex:1;
+    aspect-ratio: 1/1   ;
+    position: relative;
+    margin-top: 25px;
+
+}
+.image{
+    border-radius: 50%;
+    border: 3px solid lightgray;
+    object-fit: cover;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.textContainer{
+    flex:4;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+
+}
+.category{
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    width: max-content;
+}
+
+.category.travel{
+    margin-top: 10px;
+    background-color: #B1AFFF;
+
+}
+.category.coding{
+    margin-top: 10px;
+    background-color: #bba23d;
+
+}
+.category.culture{
+    margin-top: 10px;
+    background-color: #FFBB70;
+
+}
+.category.fashion{
+    margin-top: 10px;
+    background-color: #f8b500;
+
+}
+.category.food{
+    margin-top: 10px;
+    background-color: #5c636e;
+
+}
+.title{
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--softTextColor);
+}
+.detail{
+    font-style: 13px;
+}
+.date{
+    color: gray;
+    font-weight: 300;
+
+}
+.editor{
+    border-bottom: 1px solid crimson;
+}

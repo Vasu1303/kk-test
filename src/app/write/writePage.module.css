@@ -1,0 +1,97 @@
+.inputText{
+    border: 3px solid rgb(206, 199, 199);
+    border-radius: 5px;
+    height:300px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.title{
+    margin-top: 20px;
+    border:none;
+    font-size: 30px;
+    outline:none;
+    padding: 20px;
+}
+.title::placeholder{
+    border: none;
+    font-size: 30px;
+    justify-content: center;
+    
+    padding-bottom: 2px;
+}
+.editor{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    
+    
+    
+}
+.button, .addbutton{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(68, 64, 64);
+    background-color: transparent;
+    display: flex;
+    cursor: pointer;
+   
+    justify-content: center;
+   
+    
+}
+
+.add{
+    display: flex;
+    gap:6px;
+    
+}
+
+
+
+
+.ytbutton{
+    object-fit: cover;
+}
+.plu{
+    border-radius: 50%;
+    background: transparent;
+    border-width: 3px solid black;
+
+}
+.addbutton:nth-child(1){
+    
+    padding:5px 4px;
+    
+}
+.addbutton:nth-child(2){
+    
+    padding:5px 4px;
+    
+}
+.addbutton:nth-child(3){
+    
+    padding:4px 4px;
+    
+}
+.postingButton{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.postButton{
+    
+    margin-top: 10px;
+    background-color: rgb(3, 158, 3);
+    color:white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    
+    height: 36px;
+    width: 300px;
+    border-radius: 30px;
+    border:1px solid rgb(3, 158, 3)
+    
+}
+

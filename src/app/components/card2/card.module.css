@@ -1,0 +1,55 @@
+.container{
+    margin-bottom: 50px;
+    display: flex;
+    gap:50px; 
+    align-items: center;
+
+}
+.imageContainer{
+   flex:1;
+   height: 300px;
+   position: relative;
+
+}
+.textContainer{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    gap:25px;
+}
+.image{
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.title{
+    font-weight: 600;
+}
+
+.date{
+    color: gray;
+    font-weight: 400;
+}
+.category{
+    color: crimson;
+    font-weight: 500;
+}
+.description{
+    color:gray;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+
+.link{
+    border-bottom: 1px solid crimson;
+    width: max-content;
+}
+
+@media screen and (max-width:640px) {
+    .container{
+        gap:20px;
+    }
+    
+    
+}

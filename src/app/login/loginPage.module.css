@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.wrapper{
+    background:  #dddada;
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    border-radius: 10px;
+  
+}
+
+.socialButton{
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.socialButton:first-child{
+    background-color: crimson;
+    
+}
+.socialButton:nth-child(2){
+    background-color: rgb(51, 46, 46);
+}
+
+.socialButton:nth-child(3){
+    background-color: rgb(76, 76, 221)
+}
+
+
+
+@media screen and (max-width:768px) {
+    .wrapper{
+        padding: 50px;
+        gap:40px;
+    }
+
+    
+}
